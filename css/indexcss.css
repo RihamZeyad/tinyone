@@ -1,0 +1,236 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'PT Sans', sans-serif;
+		box-sizing: border-box;
+
+
+}
+.heroSection{
+	width:100%;
+	height: auto;
+	background-color: #fcdb00;
+	padding-top: 52px;
+	padding-bottom: 102px;
+}
+.container{
+	width: 940px;
+	margin: 0 auto;
+	
+	
+}
+nav{
+	margin-bottom: 70px;
+}
+.logo{
+	float: left;
+	width:50px;
+}
+.navMenu{
+	float:right;
+	width: 50%;
+	
+}
+.navMenu ul{
+	list-style-type: none;
+}
+.navMenu ul li{
+	display: inline-block;
+	margin-left: 70px;
+}
+.navMenu ul li a{
+	font-size: 22px;
+	font-weight: bold;
+	color: #010101;
+	text-decoration: none;
+}
+.navMenu ul li a:hover{
+	text-decoration: underline;
+}
+
+.clear{
+	clear: both;
+}
+.desription{
+	width:50%;
+	float:left;
+	text-align: left;
+}
+.ipad{
+	width:50%;
+	float: right;
+	
+}
+.desription h2{
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 70px;
+	
+}
+.desription .p1{
+	font-size: 20px;
+	color:#313841
+}
+.desription .p2{
+	font-size: 16px;
+}
+.ipad img{
+	margin-left: 100px;
+}
+.desription .icons{
+	font-size: 42px;
+	color: #010101;
+	margin-left: 39px;
+}
+.features{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding-bottom: 110px;
+
+}
+.features h3{
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	color: #010101;
+	margin: 0px;
+	margin-top: 107px;
+}
+ .features .p3{
+	text-align: center;
+	color:#313841;
+	padding-bottom: 94px;
+
+}
+.row{
+	margin-bottom: 50px;
+}
+.grid{
+	width:33.33%;
+	height: auto;
+	float:left;
+}
+.p4{
+	font-size: 16px;
+	color: #898989;
+	
+}
+.grid h3{
+	color: #010101;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0px;
+	text-align: left;
+}
+.gridIcon{
+	color: #010101;
+	font-size: 40px;
+	width: 60px;
+	float:left;
+}
+.gridCont{
+	width: calc(100% - 60px);
+	float: right;
+}
+
+
+.end{
+	background: #010101;
+	padding-bottom: 140px;
+
+}
+.end h3{
+	margin: 0;
+  padding-top:100px;
+	font-size: 32px;
+	color: #fcdb00;
+	font-weight: bold;
+	text-align: center;
+}
+.end p{
+	text-align: center;
+	color: #898989;
+	margin-bottom: 40px;
+}
+.contactForm{
+     width: 100%;
+     height: auto;;
+ }
+ .contactForm input[type=text]{
+     height: 50px;
+     border-radius: 8px;
+     width:calc(100% - 150px);
+     margin-right:15px;
+     border:0px;
+     padding: 0px 15px;
+     box-sizing: border-box;
+     font-size: 16px;
+     font-family: 'PT Sans', sans-serif;
+     border:2px solid #ffffff;
+ }
+ .contactForm input[type=text]:focus{
+    outline: 0px;
+    border:1px solid #fcdb00;
+}
+ .contactForm input[type=submit]{
+     width: 130px;
+     border-radius: 8px;
+     background: #fcdb00;
+     color: #010101;
+     height: 50px;
+     font-family: 'PT Sans', sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+     text-transform: uppercase;
+     border: 0px;
+     cursor: pointer;
+     transition-duration: 0.4s;
+ }
+ 
+ .contactForm input[type=submit]:hover{
+    transition-duration: 0.4s;
+    background: #e8ca05;
+ }
+.end .socialLink{
+width:40px;
+height:40px;	
+	color: #000;
+	background:  #fcdb00;
+	border-radius: 3px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	margin-right: 35px;
+}
+.end .icons{
+	text-align: center;
+	padding-top: 65px;
+	padding-bottom:  120px;
+}
+.end .part1{
+	width:30%;
+    height: auto;
+	float: left;
+}
+.end .part{
+	width:15%;
+    height: auto;
+	float: left;
+}
+.end .part1 span
+
+{
+	color: white;
+	font-size: 16px;
+}
+
+.end .part a{
+	color: white;
+	font-size: 16px;
+	display: block;
+	text-decoration: none;
+}
